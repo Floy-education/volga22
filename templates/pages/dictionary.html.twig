@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% set page = null %}
+
+{% set head_title = page and page.seo_title is defined ? page.seo_title : 'Volga 22' %}
+
+{% set head_description = page and page.seo_description is defined ? page.seo_description : 'Volga 22' %}
+
+{% block content %}
+
+{% endblock %}

@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+}
+
+html, body{
+    height: 100%;
+}
+
+img.lazyload{
+    opacity: 0;
+}
+
+img.lazyloaded{
+    opacity: 1;
+}
+
+img {
+    max-width: 100%;
+}
+
+button{
+    cursor: pointer;
+}
+
+ul[class], ol[class] {
+    list-style: none;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
